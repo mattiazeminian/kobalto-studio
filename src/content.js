@@ -130,9 +130,8 @@ export const infoPage = {
       caption: '',
       website: 'https://www.mattiazeminian.com/',
       websiteLabel: 'mattiazeminian.com',
-      portrait: '/assets/founders/mattia-zeminian.svg',
-      portraitAlt: 'Ritratto segnaposto di Mattia Zeminian, con iniziali MZ.',
-      portraitIsPlaceholder: true,
+      portrait: '/assets/founders/mattia-zeminian.jpg',
+      portraitAlt: 'Ritratto di Mattia Zeminian.',
     },
     {
       name: 'Alberto Toso',
@@ -140,14 +139,12 @@ export const infoPage = {
       caption: '',
       website: 'https://www.albertotoso.com/',
       websiteLabel: 'albertotoso.com',
-      portrait: '/assets/founders/alberto-toso.svg',
-      portraitAlt: 'Ritratto segnaposto di Alberto Toso, con iniziali AT.',
-      portraitIsPlaceholder: true,
+      portrait: '/assets/founders/alberto-toso.jpg',
+      portraitAlt: 'Ritratto di Alberto Toso.',
     },
   ],
   methodLabel: 'Come lavoriamo',
   collaborationLabel: 'Collaborazioni',
-  photoNote: 'SEGNAPOSTO: sostituire i ritratti con fotografie approvate dei fondatori.',
 };
 
 

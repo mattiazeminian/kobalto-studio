@@ -85,7 +85,7 @@ function serviceRow(service) {
 }
 
 function priceCard(model) {
-  return `<article class="price-card" aria-labelledby="price-${model.id}">
+  return `<article class="price-card price-card--${model.theme}" aria-labelledby="price-${model.id}">
     <header>
       <p class="price-label">${escapeHtml(model.label)}</p>
       <h3 id="price-${model.id}">${escapeHtml(model.title)}</h3>
@@ -95,7 +95,7 @@ function priceCard(model) {
     ${model.options ? `<div class="price-options"><h4>Opzioni indicative</h4><ul>${model.options.map((option) => `<li><span>${escapeHtml(option.name)}</span><span>${escapeHtml(option.price)}</span></li>`).join('')}</ul></div>` : ''}
     <div class="price-block"><h4>Possibili attività</h4><ul class="price-list">${model.includes.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul></div>
     <div class="price-block"><h4>Come iniziamo</h4><ol class="price-process">${model.process.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ol></div>
-    <a class="text-link" href="/contatti/" data-link>${escapeHtml(model.cta)} <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="/contatti/" data-link>${escapeHtml(model.cta)}</a>
   </article>`;
 }
 
@@ -130,7 +130,7 @@ function renderServices() {
     <section class="content-section collaboration-section" aria-labelledby="collaborazioni-title">
       ${sectionHead('<span id="collaborazioni-title">Specialisti esterni</span>', '')}
       <p>${escapeHtml(studio.collaboration)}</p>
-      <a class="text-link" href="/contatti/" data-link>Parliamo del progetto <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="/contatti/" data-link>Parliamo del progetto</a>
     </section>
 
     <section class="content-section faq-section" aria-labelledby="faq-title">
@@ -191,8 +191,8 @@ function renderContact() {
         ${email}
         <p>Se preferisci, possiamo partire da una conversazione su obiettivi, materiali e tempi.</p>
         <div class="contact-links">
-          <a class="text-link" href="/competenze/" data-link>Competenze <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="/manifesto/" data-link>Manifesto <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="/competenze/" data-link>Competenze</a>
+          <a class="text-link" href="/manifesto/" data-link>Manifesto</a>
         </div>
       </div>
     </section>
@@ -212,7 +212,7 @@ function renderProject(project) {
         <section class="project-meta-concept" aria-labelledby="project-category-title">
           <h2 id="project-category-title">Progetto</h2>
           <dl><div><dt>Categoria</dt><dd>${escapeHtml(project.category)}</dd></div></dl>
-          <a class="text-link" href="/progetti/" data-link>Torna ai progetti <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="/progetti/" data-link>Torna ai progetti</a>
         </section>
       </div>
     </header>
@@ -259,7 +259,7 @@ export function renderInfoPanel() {
       <h2 id="info-title">${escapeHtml(infoPage.title)}</h2>
       <p>${escapeHtml(infoPage.intro)}</p>
       <p class="info-experience">8 anni di esperienza nel settore digitale.</p>
-      <a class="text-link" href="/contatti/" data-link>Parliamo del progetto <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="/contatti/" data-link>Parliamo del progetto</a>
     </div>
 
     <div class="info-founder-list" aria-label="Fondatori di Kobalto Studio">
@@ -268,13 +268,12 @@ export function renderInfoPanel() {
           (founder) => `<article class="info-founder">
         <figure class="info-founder-portrait">
           <img src="${escapeHtml(founder.portrait)}" width="800" height="960" alt="${escapeHtml(founder.portraitAlt)}" loading="lazy" decoding="async" />
-          ${founder.portraitIsPlaceholder ? '<figcaption>Ritratto segnaposto.</figcaption>' : ''}
         </figure>
         <div class="info-founder-copy">
           <p class="info-founder-role">${escapeHtml(founder.role)}</p>
           <h3>${escapeHtml(founder.name)}</h3>
           <p>${escapeHtml(founder.caption)}</p>
-          <a class="text-link" href="${escapeHtml(founder.website)}" target="_blank" rel="noopener noreferrer">${escapeHtml(founder.websiteLabel)} <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="${escapeHtml(founder.website)}" target="_blank" rel="noopener noreferrer">${escapeHtml(founder.websiteLabel)}</a>
         </div>
       </article>`,
         )
@@ -293,7 +292,7 @@ export function renderInfoPanel() {
       <section>
         <h3>Contatti</h3>
         <p>Verona, Italia.</p>
-        <a class="text-link" href="/contatti/" data-link>Vai ai contatti <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="/contatti/" data-link>Vai ai contatti</a>
       </section>
     </div>
   </div>`;
