@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="960" viewBox="0 0 800 960" role="img" aria-labelledby="title">
+  <title>Ritratto segnaposto di Alberto Toso</title>
+  <rect width="800" height="960" fill="#ececea"/>
+  <rect x="18" y="18" width="764" height="924" fill="none" stroke="#bfbfba" stroke-width="2" stroke-dasharray="10 10"/>
+  <circle cx="400" cy="384" r="120" fill="none" stroke="#c7c7c2" stroke-width="2"/>
+  <path d="M220 960c0-128 81-228 180-228s180 100 180 228" fill="none" stroke="#c7c7c2" stroke-width="2"/>
+  <text x="400" y="405" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="84" font-weight="500" fill="#a5a5a0" letter-spacing="-2">AT</text>
+  <text x="400" y="674" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="23" fill="#6d6d68" letter-spacing="2">RITRATTO DA INSERIRE</text>
+  <text x="400" y="716" text-anchor="middle" font-family="Georgia, serif" font-size="29" fill="#6d6d68">Alberto Toso</text>
+  <text x="400" y="878" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="18" fill="#8f8f8a" letter-spacing="1">IMMAGINE SEGNAPOSTO</text>
+</svg>
