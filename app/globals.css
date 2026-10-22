@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@custom-variant desktop (@media (min-width: 1200px));
+
+@theme {
+  --color-ink: #0b0b0f;
+  --color-ink-raised: #18181a;
+  --color-hairline: #222222;
+
+  --font-sans: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-clock: "Inter Display", "Inter", system-ui, sans-serif;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/neue-montreal-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/neue-montreal-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("/fonts/inter-display-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/geist-mono-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-ink);
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    background-color: var(--color-ink);
+    color: #fff;
+    font-family: var(--font-sans);
+    font-weight: 500;
+  }
+
+  ::selection {
+    background: rgba(255, 255, 255, 0.16);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@utility mono-label {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
