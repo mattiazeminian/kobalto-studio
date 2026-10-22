@@ -14,7 +14,6 @@ const buttonVariants = cva(
         outline: "border border-white bg-transparent text-white hover:bg-white/5",
         subtle: "bg-white/4 text-white hover:bg-white/8",
         brand: "bg-cobalt text-white hover:bg-cobalt-hover",
-        secondary: "border border-white/25 bg-transparent text-white/80 hover:border-cobalt-pale hover:bg-cobalt-pale hover:text-ink focus-visible:border-cobalt-pale focus-visible:bg-cobalt-pale focus-visible:text-ink",
       },
       size: {
         /** 40px pill used by the hero nav + primary CTA. */

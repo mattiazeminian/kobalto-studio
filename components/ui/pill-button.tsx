@@ -7,8 +7,8 @@ type PillButtonProps = {
   label: string;
   /** Second label that slides up on hover. */
   hoverLabel: string;
-  /** Button appearance. */
-  variant?: "solid" | "outline" | "brand" | "secondary";
+  /** `solid` = white pill, `outline` = hairline white pill, `brand` = cobalt CTA. */
+  variant?: "solid" | "outline" | "brand";
   /** `pill` = 40px tall CTA, `pillTall` = 48px tall (footer). */
   size?: "pill" | "pillTall";
   className?: string;
