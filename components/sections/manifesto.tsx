@@ -59,8 +59,8 @@ export function ManifestoSection() {
           <p
             key={line}
             className={cn(
-              "font-display text-[34px] leading-[1.15] font-normal tracking-[-0.025em] transition-colors duration-300 desktop:text-[48px]",
-              active === index ? "text-foreground" : "text-muted",
+              "text-[32px] leading-[1.1] font-medium tracking-[-0.03em] text-white transition-opacity duration-300 desktop:text-[48px]",
+              active === index ? "opacity-100" : "opacity-30",
             )}
           >
             {line}

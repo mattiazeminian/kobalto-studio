@@ -22,13 +22,13 @@ export function HowWeHelpSection() {
         </div>
 
         <div className="flex flex-col desktop:w-[500px]">
-          <p className="section-label text-muted">Come lavoriamo</p>
-          <h2 className="mt-2.5 font-display text-[43px] leading-[1.08] font-normal tracking-[-0.03em] text-foreground desktop:text-[51px]">
+          <p className="mono-label text-white/50">Come lavoriamo</p>
+          <h2 className="mt-2.5 text-[39px] leading-[1.1] font-medium tracking-[-0.03em] text-white">
             La tua idea merita di diventare un prodotto vero.
           </h2>
-          <div className="mt-4 flex max-w-[358px] flex-col font-normal text-muted desktop:max-w-none">
+          <div className="mt-4 flex max-w-[358px] flex-col font-normal text-white/50 desktop:max-w-none">
             {supportPoints.map((point) => (
-              <p key={point} className="text-[19px] leading-[28px]">
+              <p key={point} className="text-[20px] leading-[28px] tracking-[0.2px]">
                 {point}
               </p>
             ))}

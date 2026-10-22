@@ -35,7 +35,7 @@ export function SplitWords({
   const words = text.split(" ");
 
   return (
-    <Tag className={cn("text-foreground", className)} initial="hidden" animate="visible">
+    <Tag className={cn("text-white", className)} initial="hidden" animate="visible">
       {words.map((word, index) => (
         <Fragment key={`${word}-${index}`}>
           <m.span

@@ -4,24 +4,12 @@
 
 @theme {
   --color-ink: #0b0b0f;
-  --color-foreground: #f4f5f7;
-  --color-muted: #a6aab5;
   --color-ink-raised: #18181a;
   --color-hairline: #222222;
-  --color-cobalt: #0047ab;
-  --color-cobalt-hover: #145bc0;
-  --color-cobalt-light: #c9d8f2;
 
   --font-sans: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "Newsreader", Georgia, serif;
-}
-
-@font-face {
-  font-family: "Newsreader";
-  src: url("/fonts/newsreader-variable.ttf") format("truetype");
-  font-weight: 400 500;
-  font-style: normal;
-  font-display: swap;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-clock: "Inter Display", "Inter", system-ui, sans-serif;
 }
 
 @font-face {
@@ -40,6 +28,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Inter Display";
+  src: url("/fonts/inter-display-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/geist-mono-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   html {
     -webkit-font-smoothing: antialiased;
@@ -50,13 +54,13 @@
 
   body {
     background-color: var(--color-ink);
-    color: var(--color-foreground);
+    color: #fff;
     font-family: var(--font-sans);
-    font-weight: 400;
+    font-weight: 500;
   }
 
   ::selection {
-    background: rgba(0, 71, 171, 0.5);
+    background: rgba(255, 255, 255, 0.16);
   }
 
   * {
@@ -64,10 +68,10 @@
   }
 }
 
-@utility section-label {
-  font-family: var(--font-sans);
+@utility mono-label {
+  font-family: var(--font-mono);
   font-size: 13px;
-  line-height: 20px;
+  line-height: 26px;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
