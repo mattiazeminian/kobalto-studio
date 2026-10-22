@@ -47,20 +47,21 @@ export function HeroRail() {
         </div>
 
         <Reveal className="w-min" delay={0.8}>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-2.5">
             <PillButton
-              label="Contattaci"
-              hoverLabel="Scrivici"
+              label="Raccontaci l'idea"
+              hoverLabel="Si comincia"
               variant="brand"
               href="mailto:hello@kobaltostudio.com"
-              className="w-auto px-5"
+              className="w-auto px-4 text-[15px]"
             />
-            <a
+            <PillButton
+              label="Lo studio"
+              hoverLabel="Entra"
+              variant="secondary"
               href="#studio"
-              className="flex h-10 items-center rounded-full px-1 text-[15px] leading-[21px] whitespace-nowrap text-white/60 transition-colors duration-200 hover:text-cobalt-light focus-visible:text-cobalt-light focus-visible:outline-none"
-            >
-              Chi siamo
-            </a>
+              className="w-auto px-4 text-[15px]"
+            />
           </div>
         </Reveal>
       </div>
