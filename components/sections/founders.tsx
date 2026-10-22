@@ -39,9 +39,8 @@ export function FoundersSection() {
                   className="object-cover"
                 />
               </div>
-              <figcaption className="mt-3">
-                <span className="block text-[20px] leading-[24px] text-white">{name}</span>
-                <span className="mono-label text-white/50">Cofondatore</span>
+              <figcaption className="mt-2 text-[16px] leading-[20px] text-white/70">
+                {name}
               </figcaption>
             </figure>
           ))}
