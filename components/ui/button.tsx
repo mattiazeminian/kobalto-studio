@@ -6,14 +6,14 @@ import * as React from "react";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-full font-medium transition-colors duration-300 outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-ink disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-full font-medium transition-[color,background-color,transform] duration-200 outline-none hover:-translate-y-0.5 active:translate-y-0 focus-visible:ring-2 focus-visible:ring-cobalt focus-visible:ring-offset-2 focus-visible:ring-offset-ink motion-reduce:transition-none motion-reduce:hover:translate-y-0 disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
         solid: "bg-white text-black hover:bg-white",
         outline: "border border-white bg-transparent text-white hover:bg-white/5",
         subtle: "bg-white/4 text-white hover:bg-white/8",
-        brand: "bg-[#517cf4] text-white hover:bg-[#416be6]",
+        brand: "bg-cobalt text-white hover:bg-cobalt-hover",
       },
       size: {
         /** 40px pill used by the hero nav + primary CTA. */

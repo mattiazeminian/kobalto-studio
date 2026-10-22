@@ -12,8 +12,8 @@ export function SiteFooter() {
           <nav aria-label="Esplora" className="flex flex-col gap-2.5 desktop:gap-4">
             <p className="mono-label text-white/50">Esplora</p>
             <ul className="flex flex-col gap-2.5 desktop:gap-4">
-              <li><a href="#progetti" className="text-[16px] leading-[32px] text-white/71 hover:text-white">Progetti</a></li>
-              <li><a href="#studio" className="text-[16px] leading-[32px] text-white/71 hover:text-white">Lo studio</a></li>
+              <li><a href="#progetti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-200 hover:text-cobalt-light focus-visible:text-cobalt-light">Progetti</a></li>
+              <li><a href="#studio" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-200 hover:text-cobalt-light focus-visible:text-cobalt-light">Lo studio</a></li>
             </ul>
           </nav>
 
@@ -32,7 +32,7 @@ export function SiteFooter() {
                 Mattia e Alberto
               </p>
               <p className="mono-label text-white/50">Verona, Italia</p>
-              <a href="mailto:hello@kobaltostudio.com" className="break-all text-[16px] leading-[32px] text-white hover:opacity-70">
+              <a href="mailto:hello@kobaltostudio.com" className="break-all text-[16px] leading-[32px] text-white transition-colors duration-200 hover:text-cobalt-light focus-visible:text-cobalt-light">
                 hello@kobaltostudio.com
               </a>
             </div>

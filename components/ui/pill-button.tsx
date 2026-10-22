@@ -1,6 +1,5 @@
 "use client";
 
-import type { ReactNode } from "react";
 import { m } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
@@ -13,8 +12,7 @@ type PillButtonProps = {
   /** `pill` = 40px tall CTA, `pillTall` = 48px tall (footer). */
   size?: "pill" | "pillTall";
   className?: string;
-  icon?: ReactNode;
-  /** Renders a link instead of the booker trigger. */
+  /** Link destination. */
   href: string;
 };
 
@@ -39,16 +37,10 @@ export function PillButton({
   variant = "solid",
   size = "pill",
   className,
-  icon,
   href,
 }: PillButtonProps) {
   const content = (
-    <span className="flex items-center justify-center gap-2">
-      {icon ? (
-        <span className="flex h-[19.2px] shrink-0 items-center" aria-hidden="true">
-          {icon}
-        </span>
-      ) : null}
+    <span className="flex items-center justify-center">
       <span className="relative flex h-[19.2px] items-start overflow-hidden">
         <m.span
           className="relative flex flex-col items-center gap-2.5"
@@ -69,6 +61,7 @@ export function PillButton({
         initial="rest"
         animate="rest"
         whileHover="hover"
+        whileFocus="hover"
       >
         {content}
       </m.a>

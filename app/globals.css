@@ -6,6 +6,9 @@
   --color-ink: #0b0b0f;
   --color-ink-raised: #18181a;
   --color-hairline: #222222;
+  --color-cobalt: #0047ab;
+  --color-cobalt-hover: #145bc0;
+  --color-cobalt-light: #7da6ff;
 
   --font-sans: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -60,7 +63,7 @@
   }
 
   ::selection {
-    background: rgba(255, 255, 255, 0.16);
+    background: rgba(0, 71, 171, 0.5);
   }
 
   * {
