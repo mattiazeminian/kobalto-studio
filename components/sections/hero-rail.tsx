@@ -50,6 +50,7 @@ export function HeroRail() {
           <div className="flex items-center gap-5">
             <PillButton
               label="Contattaci"
+              hoverLabel="Scrivici"
               variant="brand"
               href="mailto:hello@kobaltostudio.com"
               className="w-auto px-5"
