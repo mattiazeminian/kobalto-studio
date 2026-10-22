@@ -1,7 +1,5 @@
-"use client";
-
-import { m, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 type PillButtonProps = {
   label: string;
@@ -15,8 +13,6 @@ type PillButtonProps = {
   href: string;
 };
 
-const spring = { type: "spring" as const, stiffness: 400, damping: 30 };
-
 /** Only the two labels slide; the button itself stays in place. */
 export function PillButton({
   label,
@@ -26,22 +22,16 @@ export function PillButton({
   className,
   href,
 }: PillButtonProps) {
-  const reducedMotion = useReducedMotion();
-
   return (
-    <Button asChild variant={variant} size={size} className={className}>
-      <m.a href={href} initial="rest" animate="rest" whileHover="hover" whileFocus="hover">
-        <span className="relative flex h-[19.2px] items-start overflow-hidden">
-          <m.span
-            className="relative flex flex-col items-center gap-2.5"
-            variants={{ rest: { y: 0 }, hover: { y: reducedMotion ? 0 : -29 } }}
-            transition={reducedMotion ? { duration: 0 } : spring}
-          >
-            <span className="block">{label}</span>
-            <span className="block" aria-hidden="true">{hoverLabel}</span>
-          </m.span>
+    <Button asChild variant={variant} size={size} className={cn("pill-link", className)}>
+      <a href={href} aria-label={label}>
+        <span className="pill-label-window">
+          <span className="pill-label-stack" aria-hidden="true">
+            <span>{label}</span>
+            <span>{hoverLabel}</span>
+          </span>
         </span>
-      </m.a>
+      </a>
     </Button>
   );
 }
