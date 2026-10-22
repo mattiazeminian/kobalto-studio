@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 /**
  * Footer: link columns + recruiting block, then the full-bleed artwork that
@@ -12,8 +13,9 @@ export function SiteFooter() {
           <nav aria-label="Esplora" className="flex flex-col gap-2.5 desktop:gap-4">
             <p className="mono-label text-white/50">Esplora</p>
             <ul className="flex flex-col gap-2.5 desktop:gap-4">
-              <li><a href="#progetti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Progetti</a></li>
-              <li><a href="#studio" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Lo studio</a></li>
+              <li><Link href="/#progetti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Progetti</Link></li>
+              <li><Link href="/#studio" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Lo studio</Link></li>
+              <li><Link href="/contatti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Contatti</Link></li>
             </ul>
           </nav>
 
