@@ -54,7 +54,7 @@ export function HeroRail() {
                 hoverLabel="Lo studio"
                 variant="subtle"
                 href="#studio"
-                className="w-auto bg-white/[0.078] px-4 hover:bg-white/[0.148]"
+                className="w-[108px] bg-white/[0.078] hover:bg-white/[0.148]"
               />
             </div>
           </Reveal>

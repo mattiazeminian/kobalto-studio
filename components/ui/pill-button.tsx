@@ -23,7 +23,7 @@ export function PillButton({
   href,
 }: PillButtonProps) {
   return (
-    <Button asChild variant={variant} size={size} className={cn("pill-link", className)}>
+    <Button asChild variant={variant} size={size} className={cn("pill-link px-0", className)}>
       <a href={href} aria-label={label}>
         <span className="pill-label-window">
           <span className="pill-label-stack" aria-hidden="true">
