@@ -21,7 +21,7 @@ export default function NotFound() {
       </div>
       <Link
         href="/"
-        className="flex h-10 items-center rounded-full bg-cobalt px-6 text-[16px] leading-[19.2px] font-medium text-white transition-[background-color,transform] duration-200 hover:-translate-y-0.5 hover:bg-cobalt-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cobalt motion-reduce:transition-none motion-reduce:hover:translate-y-0"
+        className="flex h-10 items-center rounded-full bg-cobalt px-6 text-[16px] leading-[19.2px] font-medium text-white transition-colors duration-200 hover:bg-cobalt-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cobalt motion-reduce:transition-none"
       >
         Torna alla home
       </Link>
