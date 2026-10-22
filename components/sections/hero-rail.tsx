@@ -47,7 +47,7 @@ export function HeroRail() {
         </div>
 
         <Reveal className="w-min" delay={0.8}>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-3">
             <PillButton
               label="Contattaci"
               hoverLabel="Scrivici"
@@ -57,7 +57,7 @@ export function HeroRail() {
             />
             <a
               href="#studio"
-              className="flex h-10 items-center rounded-full px-1 text-[15px] leading-[21px] whitespace-nowrap text-white/60 transition-colors duration-200 hover:text-cobalt-light focus-visible:text-cobalt-light focus-visible:outline-none"
+              className="flex h-10 items-center rounded-full bg-white/[0.04] px-4 text-[15px] leading-[21px] whitespace-nowrap text-white/75 transition-colors duration-200 hover:bg-[#eef6ff]/[0.10] hover:text-white focus-visible:bg-[#eef6ff]/[0.10] focus-visible:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cobalt motion-reduce:transition-none"
             >
               Chi siamo
             </a>
