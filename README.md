@@ -1,6 +1,6 @@
 # Kobalto Studio
 
-Sito di Kobalto Studio, studio di design digitale fondato a Verona da Mattia Zeminian e Alberto Toso.
+Sito di Kobalto Studio, studio di design digitale fondato a Verona da Mattia e Alberto.
 
 ## Sviluppo
 

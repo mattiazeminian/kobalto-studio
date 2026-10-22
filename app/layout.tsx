@@ -4,18 +4,18 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Kobalto Studio – Design digitale a Verona",
   description:
-    "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia Zeminian e Alberto Toso.",
+    "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia e Alberto.",
   openGraph: {
     type: "website",
     title: "Kobalto Studio – Design digitale a Verona",
     description:
-      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia Zeminian e Alberto Toso.",
+      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia e Alberto.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Kobalto Studio – Design digitale a Verona",
     description:
-      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia Zeminian e Alberto Toso.",
+      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia e Alberto.",
   },
   icons: {
     icon: "/favicon.svg",

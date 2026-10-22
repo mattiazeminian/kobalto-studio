@@ -29,7 +29,7 @@ export function SiteFooter() {
 
             <div className="flex w-[266px] flex-col gap-2.5">
               <p className="text-[16px] leading-[32px] text-white">
-                Mattia Zeminian e Alberto Toso
+                Mattia e Alberto
               </p>
               <p className="mono-label text-white/50">Verona, Italia</p>
               <a href="mailto:hello@kobaltostudio.com" className="break-all text-[16px] leading-[32px] text-white hover:opacity-70">
