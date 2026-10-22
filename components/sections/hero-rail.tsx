@@ -57,7 +57,7 @@ export function HeroRail() {
             />
             <a
               href="#studio"
-              className="flex h-10 items-center rounded-full bg-white/[0.04] px-4 text-[15px] leading-[21px] whitespace-nowrap text-white/75 transition-colors duration-200 hover:bg-[#eef6ff]/[0.10] hover:text-white focus-visible:bg-[#eef6ff]/[0.10] focus-visible:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cobalt motion-reduce:transition-none"
+              className="flex h-10 items-center rounded-full bg-white/[0.04] px-5 text-[16px] leading-[19.2px] whitespace-nowrap text-white/75 transition-colors duration-200 hover:bg-[#eef6ff]/[0.10] hover:text-white focus-visible:bg-[#eef6ff]/[0.10] focus-visible:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cobalt motion-reduce:transition-none"
             >
               Chi siamo
             </a>
