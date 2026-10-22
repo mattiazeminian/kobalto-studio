@@ -15,7 +15,7 @@ export function WorkGrid() {
       {work.map((image, index) => (
         <article
           key={image}
-          className="relative aspect-[1.61261] w-full overflow-hidden rounded-[8px] bg-ink shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+          className={`relative aspect-[1.61261] w-full overflow-hidden rounded-[8px] bg-ink shadow-[0_1px_2px_rgba(0,0,0,0.25)]${index < 2 ? " work-entrance" : ""}`}
         >
           <Image
             src={image}

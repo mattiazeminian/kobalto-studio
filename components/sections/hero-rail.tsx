@@ -49,7 +49,6 @@ export function HeroRail() {
             <div className="flex items-center gap-1 overflow-hidden rounded-[29px]">
               <PillButton
                 label="Contattaci"
-                hoverLabel="Scrivici"
                 href="mailto:hello@kobaltostudio.com"
               />
               <a
