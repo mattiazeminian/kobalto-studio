@@ -19,8 +19,7 @@ export const metadata: Metadata = {
       "Kobalto Studio è un'agenzia di web design a Verona. Progettiamo siti web chiari, curati e facili da usare.",
   },
   icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: { url: "/favicon.svg?v=2", type: "image/svg+xml" },
   },
 };
 
