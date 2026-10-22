@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { PillButton } from "@/components/ui/pill-button";
-import { footerNav } from "@/lib/content";
 
 /**
  * Footer: link columns + recruiting block, then the full-bleed artwork that
@@ -11,27 +9,18 @@ export function SiteFooter() {
     <footer className="flex flex-col gap-2.5">
       <div className="px-6 py-6 desktop:px-0 desktop:py-12">
         <div className="mx-auto grid w-full grid-cols-2 gap-14 pb-2.5 desktop:flex desktop:pb-0 desktop:w-[1024px] desktop:justify-between desktop:gap-0">
-          {footerNav.map((column) => (
-            <nav
-              key={column.title}
-              aria-label={column.title}
-              className="flex flex-col gap-2.5 desktop:gap-4"
-            >
-              <p className="mono-label text-white/50">{column.title}</p>
-              <ul className="flex flex-col gap-2.5 desktop:gap-4">
-                {column.links.map((link) => (
-                  <li key={link.label}>
-                    <a
-                      href={link.href}
-                      className="text-[16px] leading-[32px] whitespace-nowrap text-white/71 transition-colors duration-300 hover:text-white"
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          ))}
+          <nav aria-label="Esplora" className="flex flex-col gap-2.5 desktop:gap-4">
+            <p className="mono-label text-white/50">Esplora</p>
+            <ul className="flex flex-col gap-2.5 desktop:gap-4">
+              <li><a href="#progetti" className="text-[16px] leading-[32px] text-white/71 hover:text-white">Progetti</a></li>
+              <li><a href="#studio" className="text-[16px] leading-[32px] text-white/71 hover:text-white">Lo studio</a></li>
+            </ul>
+          </nav>
+
+          <div className="flex flex-col gap-2.5 desktop:gap-4">
+            <p className="mono-label text-white/50">Da Verona</p>
+            <p className="text-[16px] leading-[32px] text-white/71">Uno studio indipendente a Verona, Italia.</p>
+          </div>
 
           <div className="flex flex-col gap-2.5 desktop:gap-8">
             <p className="w-[305px] text-[16px] leading-[24px] text-[#6e6e6e] desktop:leading-[32px]">
@@ -40,18 +29,15 @@ export function SiteFooter() {
 
             <div className="flex w-[266px] flex-col gap-2.5">
               <p className="text-[16px] leading-[32px] text-white">
-                Cerchiamo un Senior Product Designer
+                Mattia Zeminian e Alberto Toso
               </p>
-              <PillButton
-                label="Lavora con noi"
-                hoverLabel="Candidati"
-                variant="outline"
-                size="pillTall"
-                href="https://turbodesign.co/contact"
-              />
+              <p className="mono-label text-white/50">Verona, Italia</p>
+              <a href="mailto:hello@kobaltostudio.com" className="break-all text-[16px] leading-[32px] text-white hover:opacity-70">
+                hello@kobaltostudio.com
+              </a>
             </div>
 
-            <h2 className="mono-label w-[305px] text-white/50">Turbo Creative LLC</h2>
+            <h2 className="mono-label w-[305px] text-white/50">Kobalto Studio</h2>
           </div>
         </div>
       </div>
@@ -59,7 +45,7 @@ export function SiteFooter() {
       <div className="relative w-full">
         <Image
           src="/logo.png"
-          alt="Kobalto"
+          alt=""
           width={1620}
           height={368}
           sizes="100vw"

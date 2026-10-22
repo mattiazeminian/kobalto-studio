@@ -7,7 +7,7 @@ export default function NotFound() {
       <div className="w-[115px]">
         <Image
           src="/logo.png"
-          alt="Kobalto"
+          alt="Kobalto Studio"
           width={1620}
           height={368}
           className="block h-auto w-full"

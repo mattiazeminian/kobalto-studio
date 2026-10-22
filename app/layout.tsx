@@ -2,28 +2,24 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://turbodesign.co"),
-  title: "Turbo – Studio di design per prodotti digitali",
+  title: "Kobalto Studio – Design digitale a Verona",
   description:
-    "Diamo forma a prodotti digitali con chi ha qualcosa di nuovo da dire.",
+    "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia Zeminian e Alberto Toso.",
   openGraph: {
     type: "website",
-    url: "https://turbodesign.co/",
-    title: "Turbo – Studio di design per prodotti digitali",
+    title: "Kobalto Studio – Design digitale a Verona",
     description:
-      "Diamo forma a prodotti digitali con chi ha qualcosa di nuovo da dire.",
-    images: ["/images/footer-art.png"],
+      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia Zeminian e Alberto Toso.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Turbo – Studio di design per prodotti digitali",
+    title: "Kobalto Studio – Design digitale a Verona",
     description:
-      "Diamo forma a prodotti digitali con chi ha qualcosa di nuovo da dire.",
-    images: ["/images/footer-art.png"],
+      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia Zeminian e Alberto Toso.",
   },
   icons: {
     icon: "/favicon.svg",
-    apple: "/favicon.png",
+    apple: "/favicon.svg",
   },
 };
 

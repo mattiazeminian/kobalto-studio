@@ -13,6 +13,7 @@ const buttonVariants = cva(
         solid: "bg-white text-black hover:bg-white",
         outline: "border border-white bg-transparent text-white hover:bg-white/5",
         subtle: "bg-white/4 text-white hover:bg-white/8",
+        brand: "bg-[#517cf4] text-white hover:bg-[#416be6]",
       },
       size: {
         /** 40px pill used by the hero nav + primary CTA. */

@@ -1,21 +1,21 @@
 "use client";
 
+import type { ReactNode } from "react";
 import { m } from "framer-motion";
-import { useBooking } from "@/components/booking-provider";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 
 type PillButtonProps = {
   label: string;
   /** Second label that slides up on hover. */
   hoverLabel: string;
-  /** `solid` = white pill, `outline` = hairline white pill. */
-  variant?: "solid" | "outline";
+  /** `solid` = white pill, `outline` = hairline white pill, `brand` = cobalt CTA. */
+  variant?: "solid" | "outline" | "brand";
   /** `pill` = 40px tall CTA, `pillTall` = 48px tall (footer). */
   size?: "pill" | "pillTall";
   className?: string;
+  icon?: ReactNode;
   /** Renders a link instead of the booker trigger. */
-  href?: string;
+  href: string;
 };
 
 /** One label line (19.2px) + the 10px gap. */
@@ -29,7 +29,7 @@ const labels = {
 const spring = { type: "spring" as const, stiffness: 400, damping: 30 };
 
 /**
- * The Turbo pill: a clipping window over two stacked labels. Only the first
+ * A clipping window over two stacked labels. Only the first
  * label is vertically centred — the alternate copy waits underneath the clip.
  * Hover springs the stack up one line so the two labels trade places.
  */
@@ -39,52 +39,39 @@ export function PillButton({
   variant = "solid",
   size = "pill",
   className,
+  icon,
   href,
 }: PillButtonProps) {
-  const { open } = useBooking();
-
   const content = (
-    <span className="relative flex h-[19.2px] w-full items-center justify-center">
-      <m.span
-        className="absolute inset-x-0 top-0 flex flex-col items-center gap-2.5"
-        variants={labels}
-        transition={spring}
-      >
-        <span className="block">{label}</span>
-        <span className="block">{hoverLabel}</span>
-      </m.span>
+    <span className="flex items-center justify-center gap-2">
+      {icon ? (
+        <span className="flex h-[19.2px] shrink-0 items-center" aria-hidden="true">
+          {icon}
+        </span>
+      ) : null}
+      <span className="relative flex h-[19.2px] items-center overflow-hidden">
+        <m.span
+          className="relative flex flex-col items-center gap-2.5"
+          variants={labels}
+          transition={spring}
+        >
+          <span className="block">{label}</span>
+          <span className="block">{hoverLabel}</span>
+        </m.span>
+      </span>
     </span>
   );
 
-  if (href) {
-    return (
-      <Button asChild variant={variant} size={size} className={className}>
-        <m.a
-          href={href}
-          target="_blank"
-          rel="noreferrer"
-          initial="rest"
-          animate="rest"
-          whileHover="hover"
-        >
-          {content}
-        </m.a>
-      </Button>
-    );
-  }
-
   return (
-    <Button asChild variant={variant} size={size} className={cn("group", className)}>
-      <m.button
-        type="button"
-        onClick={open}
+    <Button asChild variant={variant} size={size} className={className}>
+      <m.a
+        href={href}
         initial="rest"
         animate="rest"
         whileHover="hover"
-        aria-haspopup="dialog"
       >
         {content}
-      </m.button>
+      </m.a>
     </Button>
   );
 }

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 const formatter = new Intl.DateTimeFormat("it-IT", {
-  timeZone: "America/New_York",
+  timeZone: "Europe/Rome",
   weekday: "long",
   month: "long",
   day: "numeric",
@@ -25,7 +25,7 @@ function format(date: Date) {
 }
 
 /**
- * Brooklyn clock in the hero rail, formatted in Italian.
+ * Verona clock in the hero rail, formatted in Italian.
  */
 export function LiveClock({ className }: { className?: string }) {
   const [now, setNow] = useState(() => new Date());
@@ -39,7 +39,7 @@ export function LiveClock({ className }: { className?: string }) {
   return (
     <div className={cn("flex flex-col gap-1 overflow-hidden", className)}>
       <p className="text-[14px] leading-[16.8px] tracking-[0.14px] text-white/50 font-clock">
-        Brooklyn, NY
+        Verona, Italia
       </p>
       <p
         className="text-[14px] leading-[16.8px] tracking-[0.14px] text-white/50 font-clock"

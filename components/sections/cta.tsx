@@ -12,7 +12,7 @@ export function CtaSection() {
         <br />
         Il resto lo costruiamo insieme.
       </h2>
-      <PillButton label="Parliamone" hoverLabel="Scrivici" />
+      <PillButton label="Parliamone" hoverLabel="Scrivici" href="mailto:hello@kobaltostudio.com" />
     </section>
   );
 }

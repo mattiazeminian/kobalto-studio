@@ -13,7 +13,7 @@ export function HowWeHelpSection() {
         <div className="relative h-[363px] w-full overflow-hidden rounded-[16px] desktop:h-[540px] desktop:w-[500px] desktop:shrink-0 desktop:rounded-[32px]">
           <Image
             src="/images/how-we-help.png"
-            alt="Schermate di prodotti digitali progettati da Turbo"
+            alt="Schermate di prodotti digitali"
             width={500}
             height={638}
             sizes="(min-width: 1200px) 500px, 100vw"
