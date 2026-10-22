@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button";
 type PillButtonProps = {
   label: string;
   hoverLabel: string;
-  /** `solid` = white pill, `outline` = hairline white pill, `brand` = cobalt CTA. */
-  variant?: "solid" | "outline" | "brand";
+  /** `solid` = white pill, `outline` = hairline white pill, `subtle` = transparent secondary, `brand` = cobalt CTA. */
+  variant?: "solid" | "outline" | "subtle" | "brand";
   /** `pill` = 40px tall CTA, `pillTall` = 48px tall (footer). */
   size?: "pill" | "pillTall";
   className?: string;

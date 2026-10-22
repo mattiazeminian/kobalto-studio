@@ -12,7 +12,7 @@ const buttonVariants = cva(
       variant: {
         solid: "bg-white text-black hover:bg-white",
         outline: "border border-white bg-transparent text-white hover:bg-white/5",
-        subtle: "bg-white/4 text-white hover:bg-white/8",
+        subtle: "bg-transparent text-white/75 hover:bg-[#eef6ff]/[0.10] hover:text-white focus-visible:bg-[#eef6ff]/[0.10] focus-visible:text-white",
         brand: "bg-cobalt text-white hover:bg-cobalt-hover",
       },
       size: {

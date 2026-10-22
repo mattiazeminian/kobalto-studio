@@ -55,12 +55,13 @@ export function HeroRail() {
               href="mailto:hello@kobaltostudio.com"
               className="w-auto px-5"
             />
-            <a
+            <PillButton
+              label="Chi siamo"
+              hoverLabel="Lo studio"
+              variant="subtle"
               href="#studio"
-              className="flex h-10 items-center rounded-full bg-white/[0.04] px-5 text-[16px] leading-[19.2px] whitespace-nowrap text-white/75 transition-colors duration-200 hover:bg-[#eef6ff]/[0.10] hover:text-white focus-visible:bg-[#eef6ff]/[0.10] focus-visible:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cobalt motion-reduce:transition-none"
-            >
-              Chi siamo
-            </a>
+              className="w-auto px-5"
+            />
           </div>
         </Reveal>
       </div>
