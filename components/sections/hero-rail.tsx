@@ -29,9 +29,6 @@ export function HeroRail() {
 
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-4">
-            <Reveal to={0.7} className="w-full">
-              <p className="mono-label text-white/50">Kobalto Studio</p>
-            </Reveal>
             <SplitWords
               as="h1"
               text="Le idee prendono forma."
