@@ -38,11 +38,11 @@ export function LiveClock({ className }: { className?: string }) {
 
   return (
     <div className={cn("flex flex-col gap-1 overflow-hidden", className)}>
-      <p className="text-[14px] leading-[16.8px] tracking-[0.14px] text-white/50 font-clock">
+      <p className="text-[13px] leading-[19px] text-muted">
         Verona, Italia
       </p>
       <p
-        className="text-[14px] leading-[16.8px] tracking-[0.14px] text-white/50 font-clock"
+        className="text-[13px] leading-[19px] text-muted"
         suppressHydrationWarning
       >
         {format(now)}

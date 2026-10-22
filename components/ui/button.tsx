@@ -10,10 +10,10 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        solid: "bg-white text-black hover:bg-white",
-        outline: "border border-white bg-transparent text-white hover:bg-white/5",
-        subtle: "bg-transparent text-white/75 hover:bg-[#eef6ff]/[0.10] hover:text-white focus-visible:bg-[#eef6ff]/[0.10] focus-visible:text-white",
-        brand: "bg-cobalt text-white hover:bg-cobalt-hover",
+        solid: "bg-foreground text-ink hover:bg-foreground",
+        outline: "border border-foreground bg-transparent text-foreground hover:bg-foreground/5",
+        subtle: "bg-transparent text-muted hover:bg-cobalt-light/10 hover:text-foreground focus-visible:bg-cobalt-light/10 focus-visible:text-foreground",
+        brand: "bg-cobalt text-foreground hover:bg-cobalt-hover",
       },
       size: {
         /** 40px pill used by the hero nav + primary CTA. */

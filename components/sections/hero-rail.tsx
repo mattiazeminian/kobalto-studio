@@ -29,18 +29,18 @@ export function HeroRail() {
       <div className="flex flex-col gap-7 desktop:self-center">
         <div className="flex flex-col gap-4">
           <Reveal to={0.7} className="w-full">
-            <p className="text-[14px] leading-[20px] font-medium tracking-[0.01em] text-white/50">
+            <p className="section-label text-muted">
               Kobalto Studio
             </p>
           </Reveal>
           <SplitWords
             as="h1"
             text="Le idee prendono forma."
-            className="text-[36px] leading-[1.08] font-medium tracking-[-0.03em] desktop:text-[38px]"
+            className="font-display text-[43px] leading-[1.04] font-normal tracking-[-0.035em] text-foreground desktop:text-[49px]"
           />
 
           <Reveal to={0.7} className="w-full">
-            <p className="max-w-[310px] text-[17px] leading-[24px] font-normal text-white/70">
+            <p className="max-w-[310px] text-[17px] leading-[25px] font-normal text-muted">
               Da Verona, progettiamo esperienze e prodotti digitali con chi ha qualcosa di nuovo da dire.
             </p>
           </Reveal>
@@ -67,10 +67,7 @@ export function HeroRail() {
       </div>
 
       <Reveal className="hidden w-full desktop:block">
-        <div className="flex flex-col gap-6">
-          <p className="mono-label text-white/40">Mattia · Alberto</p>
-          <LiveClock />
-        </div>
+        <LiveClock />
       </Reveal>
     </aside>
   );

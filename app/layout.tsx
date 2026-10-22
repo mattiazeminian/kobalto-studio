@@ -5,18 +5,18 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Kobalto Studio – Design digitale a Verona",
   description:
-    "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia e Alberto.",
+    "Kobalto Studio è uno studio indipendente di design digitale a Verona.",
   openGraph: {
     type: "website",
     title: "Kobalto Studio – Design digitale a Verona",
     description:
-      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia e Alberto.",
+      "Kobalto Studio è uno studio indipendente di design digitale a Verona.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Kobalto Studio – Design digitale a Verona",
     description:
-      "Kobalto Studio è lo studio di design digitale fondato a Verona da Mattia e Alberto.",
+      "Kobalto Studio è uno studio indipendente di design digitale a Verona.",
   },
   icons: {
     icon: "/favicon.svg",
@@ -33,7 +33,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="it">
-      <body className="bg-ink text-white antialiased">
+      <body className="bg-ink text-foreground antialiased">
         <MotionProvider>{children}</MotionProvider>
       </body>
     </html>

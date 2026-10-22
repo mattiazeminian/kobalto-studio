@@ -14,15 +14,15 @@ export function FoundersSection() {
     >
       <div className="grid w-full gap-10 desktop:w-[1024px] desktop:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] desktop:items-center desktop:gap-14">
         <div>
-          <p className="mono-label text-white/50">Lo studio</p>
+          <p className="section-label text-muted">Lo studio</p>
           <h2
             id="studio-title"
-            className="mt-2.5 text-[39px] leading-[1.1] font-medium tracking-[-0.03em] text-white desktop:text-[48px]"
+            className="mt-2.5 font-display text-[43px] leading-[1.08] font-normal tracking-[-0.03em] text-foreground desktop:text-[51px]"
           >
             Due persone, un modo condiviso di vedere le cose.
           </h2>
-          <p className="mt-6 text-[20px] leading-[28px] text-white/50">
-            Kobalto Studio nasce a Verona da Mattia e Alberto.
+          <p className="mt-6 text-[19px] leading-[28px] font-normal text-muted">
+            Kobalto Studio nasce a Verona dall&apos;incontro di due prospettive.
             Lavoriamo insieme per trasformare idee in esperienze digitali chiare,
             utili e riconoscibili.
           </p>
@@ -39,7 +39,7 @@ export function FoundersSection() {
                   className="object-cover"
                 />
               </div>
-              <figcaption className="mt-2 text-[16px] leading-[20px] text-white/70">
+              <figcaption className="mt-2 text-[16px] leading-[22px] text-foreground">
                 {name}
               </figcaption>
             </figure>
