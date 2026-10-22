@@ -24,7 +24,7 @@ export function HowWeHelpSection() {
         <div className="flex flex-col desktop:w-[500px]">
           <p className="mono-label text-white/50">Come lavoriamo</p>
           <h2 className="mt-2.5 text-[39px] leading-[1.1] font-medium tracking-[-0.03em] text-white">
-            La tua idea merita di diventare un prodotto vero.
+            Un buon sito mette le cose in ordine.
           </h2>
           <div className="mt-4 flex max-w-[358px] flex-col font-normal text-white/50 desktop:max-w-none">
             {supportPoints.map((point) => (

@@ -18,17 +18,17 @@ export function SiteFooter() {
           </nav>
 
           <div className="flex flex-col gap-2.5 desktop:gap-4">
-            <p className="mono-label text-white/50">Da Verona</p>
-            <p className="text-[16px] leading-[28px] text-white/71">Uno studio indipendente a Verona, Italia.</p>
+            <p className="mono-label text-white/50">Dove siamo</p>
+            <p className="text-[16px] leading-[28px] text-white/71">Verona, Italia.</p>
           </div>
 
           <div className="flex flex-col gap-2.5 desktop:gap-8">
             <p className="max-w-[305px] text-[16px] leading-[26px] text-[#6e6e6e] desktop:leading-[30px]">
-              Ci piace dare forma a idee in cui crediamo. Forse la prossima è la tua.
+              Hai bisogno di un sito nuovo o vuoi rimettere mano a quello che hai? Scrivici.
             </p>
 
             <div className="flex max-w-[266px] flex-col gap-2.5">
-              <p className="mono-label text-white/50">Verona, Italia</p>
+              <p className="mono-label text-white/50">Contatti</p>
               <a href="mailto:hello@kobaltostudio.com" className="break-all text-[16px] leading-[28px] text-white transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70">
                 hello@kobaltostudio.com
               </a>

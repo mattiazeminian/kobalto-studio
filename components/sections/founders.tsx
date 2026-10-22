@@ -19,12 +19,12 @@ export function FoundersSection() {
             id="studio-title"
             className="mt-2.5 text-[39px] leading-[1.1] font-medium tracking-[-0.03em] text-white desktop:text-[48px]"
           >
-            Due persone, un modo condiviso di vedere le cose.
+            Due persone, un rapporto diretto.
           </h2>
           <p className="mt-6 text-[20px] leading-[28px] text-white/50">
-            Kobalto Studio nasce a Verona dall&apos;incontro di due prospettive.
-            Lavoriamo insieme per trasformare idee in esperienze digitali chiare,
-            utili e riconoscibili.
+            Lavoriamo in due, a stretto contatto con chi ci affida un progetto.
+            Mettiamo in ordine contenuti e struttura, poi disegniamo ogni pagina
+            pensando a chi la userà.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3 desktop:gap-4">

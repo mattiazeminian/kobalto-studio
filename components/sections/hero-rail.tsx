@@ -31,13 +31,13 @@ export function HeroRail() {
           <div className="flex flex-col gap-4">
             <SplitWords
               as="h1"
-              text="Le idee prendono forma."
+              text="Siti web che parlano chiaro."
               className="text-[43px] leading-[1.1] font-medium tracking-[-0.03em] desktop:text-[46px]"
             />
 
             <Reveal to={0.7} className="w-full">
               <p className="text-[20px] leading-[24px] font-medium text-white/90">
-                Da Verona, progettiamo esperienze e prodotti digitali con chi ha qualcosa di nuovo da dire.
+                Progettiamo siti web che mostrano bene quello che fai e rendono semplice mettersi in contatto con te.
               </p>
             </Reveal>
           </div>

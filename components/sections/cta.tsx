@@ -8,9 +8,9 @@ export function CtaSection() {
       className="flex min-h-[50vh] flex-col items-center justify-center gap-12 px-4 py-16 desktop:h-[50vh] desktop:py-0"
     >
       <h2 className="text-center text-[40px] leading-[1.1] font-medium tracking-[-0.03em] text-white desktop:text-[48px]">
-        Partiamo da una conversazione.
+        Hai un sito in mente?
         <br />
-        Il resto lo costruiamo insieme.
+        Raccontaci cosa vuoi fare.
       </h2>
       <PillButton label="Parliamone" href="mailto:hello@kobaltostudio.com" />
     </section>

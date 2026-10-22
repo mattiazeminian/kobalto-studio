@@ -6,16 +6,16 @@ export const work: string[] = Array.from(
 
 /** Lines that light up one after another while the manifesto scrolls past. */
 export const manifesto = [
-  "Le persone si aspettano di più.",
-  "Ogni dettaglio conta.",
-  "Le idee da sole non bastano.",
-  "Serve un prodotto che le persone vogliano usare.",
-  "Li progettiamo con cura, un dettaglio alla volta.",
-  "Ora possiamo farlo insieme a te.",
+  "Un sito deve farsi capire.",
+  "Chi arriva vuole sapere cosa fai.",
+  "Vuole trovare quello che cerca.",
+  "Vuole capire come contattarti.",
+  "Testi, struttura e immagini servono a questo.",
+  "Noi li mettiamo al posto giusto.",
 ];
 
 export const supportPoints = [
-  "Diamo forma alle idee, dai primi schizzi al prodotto finito.",
-  "Rendiamo semplici anche le esperienze più complesse.",
-  "Ti aiutiamo a scegliere bene e a muoverti più velocemente.",
+  "Partiamo dai contenuti: cosa serve dire e in quale ordine.",
+  "Disegniamo pagine facili da usare su ogni schermo.",
+  "Curiamo i dettagli che rendono il sito riconoscibile.",
 ];
