@@ -49,7 +49,7 @@ export function PillButton({
           {icon}
         </span>
       ) : null}
-      <span className="relative flex h-[19.2px] items-center overflow-hidden">
+      <span className="relative flex h-[19.2px] items-start overflow-hidden">
         <m.span
           className="relative flex flex-col items-center gap-2.5"
           variants={labels}

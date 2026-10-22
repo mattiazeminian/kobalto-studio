@@ -58,7 +58,7 @@ export function HeroRail() {
               />
               <a
                 href="#studio"
-                className="flex h-10 items-center gap-2 rounded-full px-1 text-[15px] leading-[21px] text-white/60 transition-colors duration-300 hover:text-white"
+                className="flex h-10 items-center gap-2 rounded-full px-1 text-[15px] leading-[21px] whitespace-nowrap text-white/60 transition-colors duration-300 hover:text-white"
               >
                 <svg
                   viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ export function HeroRail() {
 
       <Reveal className="hidden w-full desktop:block">
         <div className="flex flex-col gap-6">
-          <p className="mono-label text-white/40">Mattia Zeminian · Alberto Toso</p>
+          <p className="mono-label text-white/40">Mattia · Alberto</p>
           <LiveClock />
         </div>
       </Reveal>
