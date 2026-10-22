@@ -35,65 +35,65 @@ export const testimonials: Testimonial[] = [
     id: "ramble",
     logo: "/images/testimonial-1.png",
     quote:
-      "Incredible design skill, super quick responses to messages, great with taking feedback.\nHit important deadlines when we're being stressed out, needy clients. Overall have a ton of deep design knowledge that is helping us learn about what is even possible and exceeding expectations.",
-    author: "Alex Pundyk, Co-Founder @ RAMBLE",
+      "Una capacità progettuale incredibile, risposte rapidissime e grande apertura ai feedback.\nHanno rispettato scadenze importanti anche quando eravamo clienti esigenti e sotto pressione. La loro esperienza ci ha aiutato a capire cosa fosse possibile, andando oltre le aspettative.",
+    author: "Alex Pundyk, cofondatore di RAMBLE",
     avatar: "/images/avatar-1.png",
   },
   {
     id: "whop",
     logo: "/images/testimonial-2.png",
-    quote: "Very talented and the work they have done for us has been amazing!",
-    author: "Steven Schwartz, CEO @ WHOP",
+    quote: "Hanno un grande talento. Il lavoro che hanno fatto per noi è stato straordinario!",
+    author: "Steven Schwartz, CEO di WHOP",
     avatar: "/images/avatar-2.png",
   },
   {
     id: "y-combinator",
     logo: "/images/testimonial-3.png",
     quote:
-      "The proactivity in design decisions–I found myself struggling with coming up with a specific feature set and their guidance based on their experience really helped converge to a well-designed solution",
-    author: "Mohammed Nasir, STEALTH STARTUP",
+      "La loro iniziativa nelle scelte di design è stata preziosa. Faticavo a definire le funzionalità e, grazie alla loro esperienza, siamo arrivati a una soluzione ben progettata.",
+    author: "Mohammed Nasir, startup in fase riservata",
     avatar: "/images/avatar-3.png",
   },
   {
     id: "roi",
     logo: "/images/testimonial-4.png",
-    quote: "Fluidity, easy to communicate feedback, fast iterations.",
-    author: "Sujith Vishwajith, Co-Founder @ ROI",
+    quote: "Un lavoro fluido: feedback facili da condividere e iterazioni rapide.",
+    author: "Sujith Vishwajith, cofondatore di ROI",
     avatar: "/images/avatar-4.png",
   },
 ];
 
 /** Lines that light up one after another while the manifesto scrolls past. */
 export const manifesto = [
-  "Users have higher expectations than ever",
-  "Design makes or breaks adoption",
-  "That's where most founders get stuck",
-  "We transform great ideas into products people want to use",
-  "We have experience designing products that scaled to millions",
-  "Now we do it for founders like you",
+  "Le persone si aspettano di più.",
+  "Ogni dettaglio conta.",
+  "Le idee da sole non bastano.",
+  "Serve un prodotto che le persone vogliano usare.",
+  "Ne abbiamo progettati per milioni di persone.",
+  "Ora possiamo farlo insieme a te.",
 ];
 
 export const supportPoints = [
-  "Transform concepts into high-fidelity designs",
-  "Create intuitive user experiences that drive adoption",
-  "Ship faster with confident product decisions",
+  "Diamo forma alle idee, dai primi schizzi al prodotto finito.",
+  "Rendiamo semplici anche le esperienze più complesse.",
+  "Ti aiutiamo a scegliere bene e a muoverti più velocemente.",
 ];
 
 export const footerNav = [
   {
-    title: "Follow us",
+    title: "Seguici",
     links: [
       { label: "LinkedIn", href: "https://www.linkedin.com/company/turbo-design-co/" },
       { label: "Twitter/X", href: "https://x.com/turbodesignco" },
     ],
   },
   {
-    title: "Company",
+    title: "Studio",
     links: [
-      { label: "Contact Us", href: "https://turbodesign.co/contact" },
-      { label: "Fulfillment Policy", href: "https://turbodesign.co/fulfillment-policy" },
-      { label: "Privacy Policy", href: "https://turbodesign.co/privacy-policy" },
-      { label: "Terms and Conditions", href: "https://turbodesign.co/terms-and-conditions" },
+      { label: "Contattaci", href: "https://turbodesign.co/contact" },
+      { label: "Condizioni di servizio", href: "https://turbodesign.co/fulfillment-policy" },
+      { label: "Informativa sulla privacy", href: "https://turbodesign.co/privacy-policy" },
+      { label: "Termini e condizioni", href: "https://turbodesign.co/terms-and-conditions" },
     ],
   },
 ] as const;

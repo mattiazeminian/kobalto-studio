@@ -3,26 +3,26 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://turbodesign.co"),
-  title: "Turbo – Product design studio for startups based in Brooklyn",
+  title: "Turbo – Studio di design per prodotti digitali",
   description:
-    "We accelerate ground-breaking startups with product design. The product design agency for growth.",
+    "Diamo forma a prodotti digitali con chi ha qualcosa di nuovo da dire.",
   openGraph: {
     type: "website",
     url: "https://turbodesign.co/",
-    title: "Turbo – Product design studio for startups based in Brooklyn",
+    title: "Turbo – Studio di design per prodotti digitali",
     description:
-      "We accelerate ground-breaking startups with product design. The product design agency for growth.",
+      "Diamo forma a prodotti digitali con chi ha qualcosa di nuovo da dire.",
     images: ["/images/footer-art.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Turbo – Product design studio for startups based in Brooklyn",
+    title: "Turbo – Studio di design per prodotti digitali",
     description:
-      "We accelerate ground-breaking startups with product design. The product design agency for growth.",
+      "Diamo forma a prodotti digitali con chi ha qualcosa di nuovo da dire.",
     images: ["/images/footer-art.png"],
   },
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.svg",
     apple: "/favicon.png",
   },
 };
@@ -35,7 +35,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="it">
       <body className="bg-ink text-white antialiased">{children}</body>
     </html>
   );

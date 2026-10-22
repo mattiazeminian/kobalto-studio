@@ -22,14 +22,14 @@ export function TestimonialsSection() {
 
   return (
     <section
-      aria-label="Client testimonials"
+      aria-label="Le parole dei clienti"
       className="px-4 py-[104px] desktop:flex desktop:h-screen desktop:items-center desktop:justify-center desktop:px-0 desktop:py-0"
     >
       <div className="w-full desktop:w-[1024px]">
         <div className="flex flex-col items-center gap-2.5">
-          <p className="mono-label text-center text-white/50">What they have to say</p>
+          <p className="mono-label text-center text-white/50">Le loro parole</p>
           <h2 className="text-center text-[39px] leading-[1.1] font-medium tracking-[-0.03em] text-white">
-            Client Testimonials
+            Cosa dicono di noi
           </h2>
         </div>
 
@@ -56,7 +56,7 @@ export function TestimonialsSection() {
               </div>
             </div>
 
-            <div className="grid grid-cols-4 gap-0.5" role="tablist" aria-label="Testimonial sources">
+            <div className="grid grid-cols-4 gap-0.5" role="tablist" aria-label="Seleziona una testimonianza">
               {testimonials.map((item, itemIndex) => {
                 const isActive = itemIndex === index;
                 return (

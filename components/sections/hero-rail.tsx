@@ -1,10 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { LiveClock } from "@/components/live-clock";
 import { Reveal } from "@/components/motion/reveal";
 import { SplitWords } from "@/components/motion/split-words";
 import { TrustedBrands } from "@/components/sections/trusted-brands";
-import { TurboLogo } from "@/components/turbo-logo";
 import { PillButton } from "@/components/ui/pill-button";
 
 /**
@@ -17,7 +17,14 @@ export function HeroRail() {
       <div className="flex flex-col gap-8">
         <Reveal className="flex w-full items-center overflow-hidden">
           <div className="w-[115px] shrink-0">
-            <TurboLogo />
+            <Image
+              src="/logo.png"
+              alt="Kobalto"
+              width={1620}
+              height={368}
+              priority
+              className="block h-auto w-full"
+            />
           </div>
         </Reveal>
 
@@ -25,23 +32,23 @@ export function HeroRail() {
           <div className="flex flex-col gap-4">
             <SplitWords
               as="h1"
-              text="We design products for the AI generation"
+              text="Diamo forma alle idee di domani"
               className="text-[43px] leading-[1.1] font-medium tracking-[-0.03em] desktop:text-[46px]"
             />
 
             <Reveal to={0.7} className="w-full">
               <p className="text-[20px] leading-[24px] font-medium text-white/90">
-                Startups trust us for embedded product design for AI-native products.
+                Progettiamo prodotti digitali con chi ha qualcosa di nuovo da dire.
               </p>
             </Reveal>
           </div>
 
           <Reveal className="w-min" delay={0.8}>
             <div className="flex items-center gap-1 overflow-hidden rounded-[29px]">
-              <PillButton label="Start a project" hoverLabel="Let's chat" />
+              <PillButton label="Parliamone" hoverLabel="Scrivici" />
               {/* Inert in the reference build: hover state only. */}
               <div className="flex h-10 items-center rounded-[32px] bg-white/[0.078] px-4 text-[15px] leading-[21px] text-white transition-colors duration-300 hover:bg-white/[0.148]">
-                About
+                Chi siamo
               </div>
             </div>
           </Reveal>

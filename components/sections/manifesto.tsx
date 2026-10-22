@@ -50,11 +50,11 @@ export function ManifestoSection() {
   return (
     <section
       ref={sectionRef}
-      aria-label="Why product design matters"
+      aria-label="Il nostro modo di vedere il design"
       className="flex flex-col justify-center px-[33px] py-[95px] desktop:h-[800px] desktop:flex-row desktop:items-center desktop:justify-center desktop:px-0 desktop:py-0"
     >
       <div className="flex w-full flex-col will-change-transform desktop:w-[1024px] desktop:pl-[72px] desktop:pr-[152px]">
-        <h2 className="sr-only">Why product design matters</h2>
+        <h2 className="sr-only">Il nostro modo di vedere il design</h2>
         {manifesto.map((line, index) => (
           <p
             key={line}

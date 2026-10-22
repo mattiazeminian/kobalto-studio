@@ -7,7 +7,7 @@ import { brands } from "@/lib/content";
 export function TrustedBrands() {
   return (
     <div className="flex flex-col gap-4 overflow-hidden">
-      <p className="mono-label text-white/40">Trusted by venture-backed startups</p>
+      <p className="mono-label text-white/40">Hanno scelto di lavorare con noi</p>
       <div className="grid grid-cols-[125px_87px] gap-x-8 gap-y-4 pb-0.5">
         {brands.map((brand) => (
           <a

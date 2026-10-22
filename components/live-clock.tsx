@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
-const formatter = new Intl.DateTimeFormat("en-US", {
+const formatter = new Intl.DateTimeFormat("it-IT", {
   timeZone: "America/New_York",
   weekday: "long",
   month: "long",
@@ -11,23 +11,21 @@ const formatter = new Intl.DateTimeFormat("en-US", {
   hour: "numeric",
   minute: "2-digit",
   second: "2-digit",
-  hour12: true,
+  hour12: false,
 });
 
 function format(date: Date) {
-  // "Thursday, October 22 at 3:22:34 AM EST"
   const parts = formatter.formatToParts(date);
   const value = (type: Intl.DateTimeFormatPartTypes) =>
     parts.find((part) => part.type === type)?.value ?? "";
 
-  return `${value("weekday")}, ${value("month")} ${value("day")} at ${value("hour")}:${value(
+  return `${value("weekday")} ${value("day")} ${value("month")}, ${value("hour")}:${value(
     "minute",
-  )}:${value("second")} ${value("dayPeriod")} EST`;
+  )}:${value("second")}`;
 }
 
 /**
- * Brooklyn clock in the hero rail. The reference artwork always renders the
- * zone suffix as "EST", so the label is appended literally.
+ * Brooklyn clock in the hero rail, formatted in Italian.
  */
 export function LiveClock({ className }: { className?: string }) {
   const [now, setNow] = useState(() => new Date());

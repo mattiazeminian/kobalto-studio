@@ -8,7 +8,7 @@ import { work } from "@/lib/content";
 export function WorkGrid() {
   return (
     <section
-      aria-label="Selected work"
+      aria-label="Progetti selezionati"
       className="flex w-full min-w-0 flex-col gap-2 px-2 pb-2 desktop:gap-4 desktop:p-8"
     >
       {work.map((image, index) => (

@@ -35,16 +35,16 @@ export function SiteFooter() {
 
           <div className="flex flex-col gap-2.5 desktop:gap-8">
             <p className="w-[305px] text-[16px] leading-[24px] text-[#6e6e6e] desktop:leading-[32px]">
-              We wake up everyday doing what we love. We hope to help you do the same.
+              Ci piace dare forma a idee in cui crediamo. Forse la prossima è la tua.
             </p>
 
             <div className="flex w-[266px] flex-col gap-2.5">
               <p className="text-[16px] leading-[32px] text-white">
-                We&apos;re hiring a Senior Product Designer
+                Cerchiamo un Senior Product Designer
               </p>
               <PillButton
-                label="Join our team"
-                hoverLabel="Apply"
+                label="Lavora con noi"
+                hoverLabel="Candidati"
                 variant="outline"
                 size="pillTall"
                 href="https://turbodesign.co/contact"
@@ -58,10 +58,10 @@ export function SiteFooter() {
 
       <div className="relative w-full">
         <Image
-          src="/images/footer-art.png"
-          alt=""
-          width={1440}
-          height={413}
+          src="/logo.png"
+          alt="Kobalto"
+          width={1620}
+          height={368}
           sizes="100vw"
           className="h-auto w-full opacity-10"
         />

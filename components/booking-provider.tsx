@@ -89,7 +89,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
         >
           <m.button
             type="button"
-            aria-label="Close booking"
+            aria-label="Chiudi la prenotazione"
             onClick={close}
             tabIndex={isOpen ? 0 : -1}
             className="absolute inset-0 h-full w-full cursor-default bg-[rgba(0,0,0,0.43)]"
@@ -102,7 +102,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
             ref={panelRef}
             role="dialog"
             aria-modal={isOpen}
-            aria-label="Book an intro call with Turbo"
+            aria-label="Prenota una chiamata conoscitiva con Turbo"
             tabIndex={-1}
             className="absolute inset-y-0 right-0 flex w-full flex-col overflow-y-auto bg-white outline-none desktop:w-[375px]"
             initial={{ opacity: 0 }}
@@ -111,7 +111,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
           >
             <iframe
               src={bookingUrl}
-              title="Book a 30 minute call with Turbo"
+              title="Prenota una chiamata di 30 minuti con Turbo"
               className="w-full"
               style={{ height: 999, border: 0 }}
             />
