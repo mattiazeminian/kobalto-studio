@@ -46,14 +46,16 @@ export function HeroRail() {
             <div className="flex items-center gap-1 overflow-hidden rounded-[29px]">
               <PillButton
                 label="Contattaci"
+                hoverLabel="Scrivici"
                 href="mailto:hello@kobaltostudio.com"
               />
-              <a
+              <PillButton
+                label="Chi siamo"
+                hoverLabel="Lo studio"
+                variant="subtle"
                 href="#studio"
-                className="flex h-10 items-center rounded-[32px] bg-white/[0.078] px-4 text-[15px] leading-[21px] whitespace-nowrap text-white transition-colors duration-300 hover:bg-white/[0.148] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70"
-              >
-                Chi siamo
-              </a>
+                className="w-auto bg-white/[0.078] px-4 hover:bg-white/[0.148]"
+              />
             </div>
           </Reveal>
         </div>
