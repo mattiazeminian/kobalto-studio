@@ -3,21 +3,25 @@ import { MotionProvider } from "@/components/motion/motion-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Studio Kobalto – Web design a Verona",
+  title: "Siti web a Verona e agenzia web design | Studio Kobalto",
   description:
-    "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web chiari, curati e facili da usare.",
+    "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
   metadataBase: new URL("https://studiokobalto.com"),
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    title: "Studio Kobalto – Web design a Verona",
+    locale: "it_IT",
+    url: "/",
+    siteName: "Studio Kobalto",
+    title: "Siti web a Verona e agenzia web design | Studio Kobalto",
     description:
-      "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web chiari, curati e facili da usare.",
+      "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Studio Kobalto – Web design a Verona",
+    title: "Siti web a Verona e agenzia web design | Studio Kobalto",
     description:
-      "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web chiari, curati e facili da usare.",
+      "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
   },
   icons: {
     icon: { url: "/favicon.png", type: "image/png" },

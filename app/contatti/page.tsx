@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Contatti – Studio Kobalto",
   description:
     "Parliamo del tuo sito web. Scrivi a Studio Kobalto o scopri come prenotare una call.",
+  alternates: { canonical: "/contatti" },
 };
 
 export default function ContattiPage() {
