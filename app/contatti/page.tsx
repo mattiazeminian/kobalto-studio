@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ContattiPage() {
   return (
     <main className="min-h-screen bg-ink text-white">
-      <div className="mx-auto w-full max-w-[1024px] px-4 pt-6 desktop:px-0">
+      <div className="w-full px-4 pt-4 desktop:px-6 desktop:pt-6">
         <Link href="/" aria-label="Torna alla home di Kobalto Studio" className="block w-[115px]">
           <Image
             src="/logo.png"
