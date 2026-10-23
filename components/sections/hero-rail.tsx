@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { LiveClock } from "@/components/live-clock";
 import { Reveal } from "@/components/motion/reveal";
 import { SplitWords } from "@/components/motion/split-words";
@@ -15,16 +14,9 @@ export function HeroRail() {
     <aside className="flex flex-col gap-8 p-4 desktop:sticky desktop:top-0 desktop:h-screen desktop:w-[375px] desktop:shrink-0 desktop:justify-between desktop:px-6 desktop:pt-6 desktop:pb-8">
       <div className="flex flex-col gap-12 desktop:gap-14">
         <Reveal className="flex w-full items-center overflow-hidden">
-          <div className="w-[115px] shrink-0">
-            <Image
-              src="/logo.png"
-              alt="Kobalto Studio"
-              width={1620}
-              height={368}
-              priority
-              className="block h-auto w-full"
-            />
-          </div>
+          <span className="whitespace-nowrap text-[26px] leading-none font-medium tracking-[-0.055em]">
+            Studio Kobalto
+          </span>
         </Reveal>
 
         <div className="flex flex-col gap-6">

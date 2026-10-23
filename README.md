@@ -1,6 +1,6 @@
-# Kobalto Studio
+# Studio Kobalto
 
-Sito di Kobalto Studio, studio di design digitale fondato a Verona da Mattia e Alberto.
+Sito di Studio Kobalto, agenzia di web design fondata a Verona da Mattia e Alberto.
 
 ## Sviluppo
 

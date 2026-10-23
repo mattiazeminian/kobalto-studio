@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 /**
@@ -36,20 +35,13 @@ export function SiteFooter() {
               </a>
             </div>
 
-            <h2 className="mono-label text-white/50">Kobalto Studio</h2>
+            <h2 className="mono-label text-white/50">Studio Kobalto</h2>
           </div>
         </div>
       </div>
 
-      <div className="relative w-full">
-        <Image
-          src="/logo.png"
-          alt=""
-          width={1620}
-          height={368}
-          sizes="100vw"
-          className="h-auto w-full opacity-10"
-        />
+      <div aria-hidden="true" className="w-full overflow-hidden whitespace-nowrap text-[clamp(52px,15vw,270px)] leading-[0.92] font-medium tracking-[-0.06em] text-white/10">
+        Studio Kobalto
       </div>
     </footer>
   );

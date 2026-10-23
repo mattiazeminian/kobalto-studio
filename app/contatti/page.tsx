@@ -3,9 +3,9 @@ import Link from "next/link";
 import { SiteFooter } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
-  title: "Contatti – Kobalto Studio",
+  title: "Contatti – Studio Kobalto",
   description:
-    "Parliamo del tuo sito web. Scrivi a Kobalto Studio o scopri come prenotare una call.",
+    "Parliamo del tuo sito web. Scrivi a Studio Kobalto o scopri come prenotare una call.",
 };
 
 export default function ContattiPage() {

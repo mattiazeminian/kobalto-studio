@@ -1,18 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function NotFound() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-8 px-6 text-center">
-      <div className="w-[115px]">
-        <Image
-          src="/logo.png"
-          alt="Kobalto Studio"
-          width={1620}
-          height={368}
-          className="block h-auto w-full"
-        />
-      </div>
+      <p className="text-[26px] leading-none font-medium tracking-[-0.055em]">Studio Kobalto</p>
       <div className="flex flex-col gap-2">
         <p className="mono-label text-white/50">404</p>
         <h1 className="text-[32px] leading-[1.1] font-medium tracking-[-0.03em]">
