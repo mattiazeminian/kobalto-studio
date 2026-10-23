@@ -47,7 +47,7 @@ export function HeroRail() {
               <PillButton
                 label="Contattaci"
                 hoverLabel="Scrivici"
-                href="/contatti"
+                href="mailto:hello@kobaltostudio.com"
               />
               <PillButton
                 label="Chi siamo"

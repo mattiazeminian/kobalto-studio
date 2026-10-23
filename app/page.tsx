@@ -2,7 +2,6 @@ import { CtaSection } from "@/components/sections/cta";
 import { SiteFooter } from "@/components/sections/footer";
 import { FoundersSection } from "@/components/sections/founders";
 import { HeroRail } from "@/components/sections/hero-rail";
-import { HowWeHelpSection } from "@/components/sections/how-we-help";
 import { WorkGrid } from "@/components/sections/work-grid";
 
 export default function HomePage() {
