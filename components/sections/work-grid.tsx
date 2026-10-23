@@ -7,7 +7,7 @@ export function WorkGrid() {
     <section
       id="progetti"
       aria-label="Progetti selezionati"
-      className="flex w-full min-w-0 max-w-[1800px] flex-col gap-2 px-2 pb-2 desktop:gap-4 desktop:p-8 desktop:pt-8 "
+      className="flex w-full min-w-0 max-w-[1800px] flex-col gap-2 px-4 pb-4 desktop:gap-4 desktop:p-6"
     >
       {work.map((item, index) => (
         <article

@@ -13,7 +13,7 @@ import { PillButton } from "@/components/ui/pill-button";
 export function HeroRail() {
   return (
     <aside className="flex flex-col gap-8 p-4 desktop:sticky desktop:top-0 desktop:h-screen desktop:w-[375px] desktop:shrink-0 desktop:justify-between desktop:px-6 desktop:pt-6 desktop:pb-8">
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-12 desktop:gap-14">
         <Reveal className="flex w-full items-center overflow-hidden">
           <div className="w-[115px] shrink-0">
             <Image

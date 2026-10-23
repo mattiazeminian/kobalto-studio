@@ -8,7 +8,7 @@ import Link from "next/link";
 export function SiteFooter() {
   return (
     <footer className="flex flex-col gap-2.5">
-      <div className="px-6 py-6 desktop:px-0 desktop:py-12">
+      <div className="px-4 py-6 desktop:px-0 desktop:py-12">
         <div className="mx-auto grid w-full grid-cols-1 gap-10 pb-2.5 sm:grid-cols-2 desktop:flex desktop:w-[1024px] desktop:justify-between desktop:gap-0 desktop:pb-0">
           <nav aria-label="Esplora" className="flex flex-col gap-2.5 desktop:gap-4">
             <p className="mono-label text-white/50">Esplora</p>
