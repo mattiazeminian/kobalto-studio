@@ -14,7 +14,7 @@ export function WorkGrid() {
           key={item.image}
           className={`relative aspect-[1.61261] w-full overflow-hidden rounded-[8px] bg-ink shadow-[0_1px_2px_rgba(0,0,0,0.25)]${index < 2 ? " work-entrance" : ""}`}
         >
-          <WorkLink {...item} priority={index < 2} />
+          <WorkLink {...item} priority={index === 0} />
         </article>
       ))}
     </section>
