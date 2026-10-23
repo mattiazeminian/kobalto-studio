@@ -33,7 +33,7 @@ export function WorkLink({ title, image, href, priority }: WorkLinkProps) {
         alt=""
         fill
         sizes="(min-width: 2200px) 1752px, (min-width: 1200px) calc(100vw - 423px), calc(100vw - 32px)"
-        quality={85}
+        quality={95}
         className="object-cover transition-[filter] duration-300 group-hover:brightness-[0.86] group-focus-visible:brightness-[0.86]"
         priority={priority}
       />
