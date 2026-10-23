@@ -1,7 +1,7 @@
 /** Project imagery in scroll order. */
 export const work: string[] = Array.from(
-  { length: 31 },
-  (_, index) => `/images/work-${String(index + 1).padStart(2, "0")}.png`,
+  { length: 5 },
+  (_, index) => `/images/work-${String(index + 1).padStart(2, "0")}.jpeg`,
 );
 
 /** Lines that light up one after another while the manifesto scrolls past. */

@@ -8,12 +8,12 @@ import { WorkGrid } from "@/components/sections/work-grid";
 export default function HomePage() {
   return (
     <main className="flex flex-col gap-2.5">
-      <section className="relative flex flex-col gap-2.5 desktop:flex-row">
+      <section className="relative flex flex-col justify-center w-full gap-2.5 desktop:flex-row mx-auto">
         <HeroRail />
         <WorkGrid />
       </section>
 
-      <HowWeHelpSection />
+      {/* <HowWeHelpSection /> */}
       <FoundersSection />
       <CtaSection />
       <SiteFooter />
