@@ -42,10 +42,10 @@ export default function ContattiPage() {
         <div className="flex min-w-0 flex-col gap-12">
           <div>
             <a
-              href="mailto:hello@kobaltostudio.com"
+              href="mailto:hello@studiokobalto.com"
               className="block break-all text-[clamp(26px,4vw,42px)] leading-[1.1] font-medium tracking-[-0.03em] text-white underline decoration-white/30 underline-offset-[7px] transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70"
             >
-              hello@kobaltostudio.com
+              hello@studiokobalto.com
             </a>
           </div>
 

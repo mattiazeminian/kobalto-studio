@@ -30,8 +30,8 @@ export function SiteFooter() {
 
             <div className="flex max-w-[266px] flex-col gap-2.5">
               <p className="mono-label text-white/50">Contatti</p>
-              <a href="mailto:hello@kobaltostudio.com" className="break-all text-[16px] leading-[28px] text-white transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70">
-                hello@kobaltostudio.com
+              <a href="mailto:hello@studiokobalto.com" className="break-all text-[16px] leading-[28px] text-white transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70">
+                hello@studiokobalto.com
               </a>
             </div>
 
