@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 /**
@@ -40,8 +41,15 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <div aria-hidden="true" className="w-full overflow-hidden whitespace-nowrap text-[clamp(52px,15vw,270px)] leading-[0.92] font-medium tracking-[-0.06em] text-white/10">
-        Studio Kobalto
+      <div className="relative w-full">
+        <Image
+          src="/logo.png"
+          alt=""
+          width={1620}
+          height={368}
+          sizes="100vw"
+          className="h-auto w-full opacity-10"
+        />
       </div>
     </footer>
   );
