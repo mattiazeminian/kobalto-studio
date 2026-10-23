@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function ContattiPage() {
   return (
-    <main className="min-h-screen bg-ink text-white">
+    <main className="min-h-screen bg-[#020113] text-white">
       <div className="w-full px-4 pt-4 desktop:px-6 desktop:pt-6">
         <Link href="/" aria-label="Torna alla home di Kobalto Studio" className="block w-[115px]">
           <Image
@@ -27,13 +27,12 @@ export default function ContattiPage() {
 
       <section
         aria-labelledby="contatti-title"
-        className="mx-auto grid min-h-[70vh] w-full max-w-[1024px] gap-12 px-4 py-20 desktop:grid-cols-2 desktop:items-center desktop:gap-16 desktop:px-0"
+        className="mx-auto grid min-h-[70vh] w-full max-w-[1024px] gap-12 px-4 py-20 desktop:grid-cols-2 desktop:content-center desktop:items-start desktop:gap-16 desktop:px-0"
       >
-        <div>
-          <p className="mono-label text-white/50">Contatti</p>
+        <div className="desktop:pt-[38px]">
           <h1
             id="contatti-title"
-            className="mt-3 max-w-[450px] text-[43px] leading-[1.1] font-medium tracking-[-0.03em] desktop:text-[52px]"
+            className="max-w-[450px] text-[43px] leading-[1.1] font-medium tracking-[-0.03em] desktop:text-[52px]"
           >
             Parliamo del tuo sito.
           </h1>
