@@ -10,7 +10,7 @@ export function FoundersSection() {
     <section
       id="studio"
       aria-labelledby="studio-title"
-      className="px-4 py-[104px] desktop:flex desktop:min-h-[600px] desktop:items-center desktop:justify-center desktop:px-0"
+      className="px-4 py-[104px] desktop:flex desktop:items-center desktop:justify-center desktop:px-0"
     >
       <div className="grid w-full gap-10 desktop:w-[1024px] desktop:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] desktop:items-center desktop:gap-14">
         <div>
