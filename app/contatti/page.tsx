@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { SiteFooter } from "@/components/sections/footer";
 
@@ -13,15 +12,14 @@ export default function ContattiPage() {
   return (
     <main className="min-h-screen bg-[#020113] text-white">
       <div className="w-full px-4 pt-4 desktop:px-6 desktop:pt-6">
-        <Link href="/" aria-label="Torna alla home di Kobalto Studio" className="block w-[115px]">
-          <Image
-            src="/logo.png"
-            alt="Kobalto Studio"
-            width={1620}
-            height={368}
-            priority
-            className="block h-auto w-full"
-          />
+        <Link
+          href="/"
+          aria-label="Torna alla home"
+          className="inline-flex size-8 items-center justify-center text-white/70 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" className="size-[18px]" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M19 12H5m6 6-6-6 6-6" />
+          </svg>
         </Link>
       </div>
 
@@ -29,7 +27,7 @@ export default function ContattiPage() {
         aria-labelledby="contatti-title"
         className="mx-auto grid min-h-[70vh] w-full max-w-[1024px] gap-12 px-4 py-20 desktop:grid-cols-2 desktop:content-center desktop:items-start desktop:gap-16 desktop:px-0"
       >
-        <div className="desktop:pt-[38px]">
+        <div>
           <h1
             id="contatti-title"
             className="max-w-[450px] text-[43px] leading-[1.1] font-medium tracking-[-0.03em] desktop:text-[52px]"
@@ -43,10 +41,9 @@ export default function ContattiPage() {
 
         <div className="flex min-w-0 flex-col gap-12">
           <div>
-            <p className="mono-label text-white/50">Scrivici</p>
             <a
               href="mailto:hello@kobaltostudio.com"
-              className="mt-3 block break-all text-[clamp(26px,4vw,42px)] leading-[1.1] font-medium tracking-[-0.03em] text-white underline decoration-white/30 underline-offset-[7px] transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70"
+              className="block break-all text-[clamp(26px,4vw,42px)] leading-[1.1] font-medium tracking-[-0.03em] text-white underline decoration-white/30 underline-offset-[7px] transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70"
             >
               hello@kobaltostudio.com
             </a>
