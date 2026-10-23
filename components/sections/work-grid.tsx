@@ -1,10 +1,7 @@
-import Image from "next/image";
 import { work } from "@/lib/content";
+import { WorkLink } from "@/components/sections/work-link";
 
-/**
- * The case-study wall. 31 tiles in a single column: 16px gutter and 32px
- * padding at 1200px+, 8px both below that. Tiles keep a 991:615 frame.
- */
+/** The case-study wall uses a single column with responsive gutters. */
 export function WorkGrid() {
   return (
     <section
@@ -12,19 +9,12 @@ export function WorkGrid() {
       aria-label="Progetti selezionati"
       className="flex w-full min-w-0 max-w-[1800px] flex-col gap-2 px-2 pb-2 desktop:gap-4 desktop:p-8 desktop:pt-8 "
     >
-      {work.map((image, index) => (
+      {work.map((item, index) => (
         <article
-          key={image}
+          key={item.image}
           className={`relative aspect-[1.61261] w-full overflow-hidden rounded-[8px] bg-ink shadow-[0_1px_2px_rgba(0,0,0,0.25)]${index < 2 ? " work-entrance" : ""}`}
         >
-          <Image
-            src={image}
-            alt=""
-            fill
-            sizes="(min-width: 1200px) 991px, 100vw"
-            className="object-cover"
-            priority={index < 2}
-          />
+          <WorkLink {...item} priority={index < 2} />
         </article>
       ))}
     </section>
