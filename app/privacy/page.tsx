@@ -46,7 +46,7 @@ export default function PrivacyPage() {
             <p>
               Il titolare del trattamento è Studio Kobalto, a Verona, Italia.
               Per domande o richieste sulla privacy puoi scrivere a{" "}
-              <a href="mailto:hello@studiokobalto.com" className="break-all text-white underline decoration-white/30 underline-offset-4 hover:decoration-white">
+              <a href="mailto:hello@studiokobalto.com" className="inline-block whitespace-nowrap text-white underline decoration-white/30 underline-offset-4 hover:decoration-white">
                 hello@studiokobalto.com
               </a>.
             </p>
@@ -104,7 +104,7 @@ export default function PrivacyPage() {
             <p>
               Puoi chiedere accesso, rettifica o cancellazione dei tuoi dati e, nei casi previsti,
               limitarne il trattamento, opporti o chiederne la portabilità. Scrivici a{" "}
-              <a href="mailto:hello@studiokobalto.com" className="break-all text-white underline decoration-white/30 underline-offset-4 hover:decoration-white">
+              <a href="mailto:hello@studiokobalto.com" className="inline-block whitespace-nowrap text-white underline decoration-white/30 underline-offset-4 hover:decoration-white">
                 hello@studiokobalto.com
               </a>.
               Puoi anche presentare un reclamo al Garante per la protezione dei dati personali.

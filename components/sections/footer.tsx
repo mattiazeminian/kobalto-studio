@@ -12,7 +12,7 @@ export function SiteFooter() {
         <div className="mx-auto grid w-full grid-cols-1 gap-10 pb-2.5 sm:grid-cols-2 desktop:flex desktop:w-[1024px] desktop:justify-between desktop:gap-0 desktop:pb-0">
           <nav aria-label="Esplora" className="flex flex-col gap-2.5 desktop:gap-4">
             <p className="mono-label text-white/50">Esplora</p>
-            <ul className="flex flex-col gap-2.5 desktop:gap-4">
+            <ul className="grid w-56 grid-cols-2 gap-x-6 gap-y-2.5 desktop:gap-y-4">
               <li><Link href="/#progetti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Progetti</Link></li>
               <li><Link href="/#studio" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Lo studio</Link></li>
               <li><Link href="/contatti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Contatti</Link></li>
@@ -32,7 +32,7 @@ export function SiteFooter() {
 
             <div className="flex max-w-[266px] flex-col gap-2.5">
               <p className="mono-label text-white/50">Contatti</p>
-              <a href="mailto:hello@studiokobalto.com" className="break-all text-[16px] leading-[28px] text-white transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70">
+              <a href="mailto:hello@studiokobalto.com" className="whitespace-nowrap text-[16px] leading-[28px] text-white transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70">
                 hello@studiokobalto.com
               </a>
               <a href="https://www.linkedin.com/company/studio-kobalto/" target="_blank" rel="noopener noreferrer" className="w-fit text-[16px] leading-[28px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">
