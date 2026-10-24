@@ -34,6 +34,9 @@ export function SiteFooter() {
               <a href="mailto:hello@studiokobalto.com" className="break-all text-[16px] leading-[28px] text-white transition-colors duration-300 hover:text-white/70 focus-visible:text-white/70">
                 hello@studiokobalto.com
               </a>
+              <a href="https://www.linkedin.com/company/studio-kobalto/" target="_blank" rel="noopener noreferrer" className="w-fit text-[16px] leading-[28px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">
+                LinkedIn
+              </a>
             </div>
 
             <h2 className="mono-label text-white/50">Studio Kobalto</h2>
