@@ -4,7 +4,7 @@ import { MotionProvider } from "@/components/motion/motion-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Siti web a Verona e agenzia web design | Studio Kobalto",
+  title: "Studio Kobalto | Siti web a Verona e agenzia web design",
   description:
     "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
   metadataBase: new URL("https://studiokobalto.com"),
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     locale: "it_IT",
     url: "/",
     siteName: "Studio Kobalto",
-    title: "Siti web a Verona e agenzia web design | Studio Kobalto",
+    title: "Studio Kobalto | Siti web a Verona e agenzia web design",
     description:
       "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Siti web a Verona e agenzia web design | Studio Kobalto",
+    title: "Studio Kobalto | Siti web a Verona e agenzia web design",
     description:
       "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
   },
