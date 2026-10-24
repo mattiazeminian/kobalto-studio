@@ -19,12 +19,11 @@ export function FoundersSection() {
             id="studio-title"
             className="mt-2.5 text-[39px] leading-[1.1] font-medium tracking-[-0.03em] text-white desktop:text-[48px]"
           >
-            Due persone, un rapporto diretto.
+            Parli con chi fa il lavoro.
           </h2>
           <p className="mt-6 text-[20px] leading-[28px] text-white/50">
-            Lavoriamo in due, a stretto contatto con chi ci affida un progetto.
-            Mettiamo in ordine contenuti e struttura, poi disegniamo ogni pagina
-            pensando a chi la userà.
+            Siamo in due e seguiamo i progetti in prima persona. Ci confrontiamo
+            con te sui contenuti, poi lavoriamo alla struttura e al design del sito.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3 desktop:gap-4">

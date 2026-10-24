@@ -53,13 +53,13 @@ export default function ContattiPage() {
           <div id="prenota-una-call" className="border-t border-white/20 pt-7">
             <p className="mono-label text-white/50">Preferisci parlarne a voce?</p>
             <a
-              href="#prenota-una-call"
-              aria-label="Prenota una call con noi, link disponibile a breve"
+              href="https://calendar.app.google/8jJtWgVo7RwMDr6h8"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-flex h-10 items-center rounded-full bg-white/[0.078] px-5 text-[16px] font-medium text-white transition-colors duration-300 hover:bg-white/[0.148] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70"
             >
               Prenota una call con noi
             </a>
-            <p className="mt-3 text-[14px] leading-5 text-white/50">Link disponibile a breve.</p>
           </div>
         </div>
       </section>
