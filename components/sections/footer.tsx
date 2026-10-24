@@ -16,6 +16,7 @@ export function SiteFooter() {
               <li><Link href="/#progetti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Progetti</Link></li>
               <li><Link href="/#studio" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Lo studio</Link></li>
               <li><Link href="/contatti" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Contatti</Link></li>
+              <li><Link href="/privacy" className="text-[16px] leading-[32px] text-white/71 transition-colors duration-300 hover:text-white focus-visible:text-white">Privacy</Link></li>
             </ul>
           </nav>
 
