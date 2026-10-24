@@ -37,7 +37,7 @@ export function HeroRail() {
 
             <Reveal to={0.7} className="w-full">
               <p className="text-[20px] leading-[24px] font-medium text-white/90">
-                Progettiamo siti web che mostrano bene quello che fai e rendono semplice mettersi in contatto con te.
+                Progettiamo siti web che raccontano il tuo valore e rendono semplice mettersi in contatto con te.
               </p>
             </Reveal>
           </div>
