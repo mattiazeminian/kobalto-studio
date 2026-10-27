@@ -12,7 +12,6 @@ export default function HomePage() {
         <WorkGrid />
       </section>
 
-      {/* <HowWeHelpSection /> */}
       <FoundersSection />
       <CtaSection />
       <SiteFooter />
