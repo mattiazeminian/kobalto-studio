@@ -30,7 +30,7 @@ export function WorkLink({ title, image, href, priority }: WorkLinkProps) {
     >
       <Image
         src={image}
-        alt=""
+        alt={`${title} – sito web realizzato da Studio Kobalto`}
         fill
         sizes="(min-width: 2200px) 1752px, (min-width: 1200px) calc(100vw - 423px), calc(100vw - 32px)"
         quality={95}

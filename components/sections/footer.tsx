@@ -26,7 +26,7 @@ export function SiteFooter() {
           </div>
 
           <div className="flex flex-col gap-2.5 desktop:gap-8">
-            <p className="max-w-[305px] text-[16px] leading-[26px] text-[#6e6e6e] desktop:leading-[30px]">
+            <p className="max-w-[305px] text-[16px] leading-[26px] text-[#8a8a8a] desktop:leading-[30px]">
               Hai bisogno di un sito nuovo o vuoi rimettere mano a quello che hai? Scrivici.
             </p>
 
