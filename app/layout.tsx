@@ -4,11 +4,14 @@ import { MotionProvider } from "@/components/motion/motion-provider";
 import "./globals.css";
 
 const siteUrl = "https://studiokobalto.com";
+const siteTitle = "Studio Kobalto | Web design a Verona";
+const siteDescription =
+  "Progettiamo siti web per aziende e professionisti. Seguiamo ogni progetto in prima persona, dai contenuti alla struttura e al design.";
 const socialImage = {
   url: "/social-preview-1200x630.png",
   width: 1200,
   height: 630,
-  alt: "Studio Kobalto – Siti web a Verona",
+  alt: "Studio Kobalto – Web design a Verona",
 };
 
 const structuredData = {
@@ -20,8 +23,7 @@ const structuredData = {
       name: "Studio Kobalto",
       url: siteUrl,
       email: "hello@studiokobalto.com",
-      description:
-        "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare.",
+      description: siteDescription,
       logo: `${siteUrl}/logo.png`,
       image: `${siteUrl}${socialImage.url}`,
       areaServed: {
@@ -47,9 +49,8 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: "Studio Kobalto | Siti web a Verona e agenzia web design",
-  description:
-    "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
+  title: siteTitle,
+  description: siteDescription,
   metadataBase: new URL("https://studiokobalto.com"),
   alternates: { canonical: "/" },
   openGraph: {
@@ -57,16 +58,14 @@ export const metadata: Metadata = {
     locale: "it_IT",
     url: "/",
     siteName: "Studio Kobalto",
-    title: "Studio Kobalto | Siti web a Verona e agenzia web design",
-    description:
-      "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
+    title: siteTitle,
+    description: siteDescription,
     images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Studio Kobalto | Siti web a Verona e agenzia web design",
-    description:
-      "Studio Kobalto è un'agenzia di web design a Verona. Progettiamo siti web su misura, chiari e facili da usare, per raccontare bene la tua attività.",
+    title: siteTitle,
+    description: siteDescription,
     images: [socialImage.url],
   },
   icons: {
