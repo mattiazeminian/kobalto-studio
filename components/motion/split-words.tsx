@@ -10,6 +10,8 @@ type SplitWordsProps = {
   className?: string;
   /** Rendered element, defaults to a paragraph. */
   as?: "p" | "h1" | "h2";
+  /** Insert a line break after this word on mobile. */
+  mobileBreakAfter?: string;
   /** Delay before the first word starts. */
   delay?: number;
   /** Delay added per word. */
@@ -27,6 +29,7 @@ export function SplitWords({
   text,
   className,
   as = "p",
+  mobileBreakAfter,
   delay = 0.5,
   stagger = 0.06,
   duration = 2.1,
@@ -53,6 +56,7 @@ export function SplitWords({
           >
             {word}
           </m.span>
+          {word === mobileBreakAfter ? <br className="desktop:hidden" /> : null}
           {index < words.length - 1 ? " " : null}
         </Fragment>
       ))}

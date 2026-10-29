@@ -83,6 +83,13 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="it">
+      <head>
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="f114d13a-e51c-41fb-959f-8e094ff5f81d"
+        />
+      </head>
       <body className="bg-ink text-white antialiased">
         <script
           type="application/ld+json"

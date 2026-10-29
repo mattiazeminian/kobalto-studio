@@ -32,7 +32,8 @@ export function HeroRail() {
             <SplitWords
               as="h1"
               text="Siti web che parlano chiaro."
-              className="text-[43px] leading-[1.1] font-medium tracking-[-0.03em] desktop:text-[46px]"
+              mobileBreakAfter="che"
+              className="text-[43px] leading-[1.1] font-medium tracking-[-0.03em] desktop:text-[46px] text-balance"
             />
 
             <Reveal to={0.7} className="w-full">
